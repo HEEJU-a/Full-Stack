@@ -30,6 +30,7 @@ public class IfMission3 {
 		
 		System.out.printf("%s%s", displayScore, displaymod);
 		
+	   
 		
 		
 		/*

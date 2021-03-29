@@ -16,12 +16,12 @@ public class OperatorExam2 {
 			
 			int n2 = 10;
 			n2 += 1;
-			int result = 10 + (n2);
+			int result = 10 + (++n2);
 			System.out.println("n2 result : " + result);
 			System.out.println("n2 : " + n2);
 			
 			int n3 = 10;
-			int result2 = 10 + (n3);
+			int result2 = 10 + (n3++);
 			n3 += 1;
 			System.out.println("n3 result : " + result2);
 			System.out.println("n3 : " + n3);
