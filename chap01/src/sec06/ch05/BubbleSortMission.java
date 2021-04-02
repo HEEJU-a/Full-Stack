@@ -21,6 +21,7 @@ public class BubbleSortMission {
 
 		// 1, 3, 6, 7, 8
 		
+		
 		for(int j = arr.length; j > 0; j--) {
 			for(int i = 0; i < j-1; i++) {
 				if(arr[i] > arr[i+1]) {
@@ -31,6 +32,20 @@ public class BubbleSortMission {
 			}
 			System.out.println(Arrays.toString(arr));
 		}
+		/* -> 선생님답
+		for(int j = arr.length-1; j > 0; j--) {
+			for(int i = 0; i < j; i++) {
+				if(arr[i] > arr[i+1]) {
+				int temp = arr[i+1];
+				arr[i+1] = arr[i];
+				arr[i] = temp;			
+				}
+			}
+			System.out.println(Arrays.toString(arr));
+		}
+		*/
+		
+		
 	}
 
 }
