@@ -33,8 +33,9 @@ public class MethodMission4 {
 	
 	public static int getRandomNum(int min, int max) {
 		
-		int rNum = (int)(Math.random() * (max-min+1)) + min;
+		int rNum = (int)(Math.random() * max-min+1) + min;
 		
+		// 최솟값+최댓값-1
 		return rNum;
 		
 	}

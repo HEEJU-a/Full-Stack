@@ -3,6 +3,7 @@ package sec06.ch05;
 public class MethodExam {
 
 	public static void main(String[] args) { // ->메인 메소드
+		
 		int aaa = 10;
 		int result = sum(aaa, 80);
 		System.out.println("sum-result : " + result);
