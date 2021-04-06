@@ -1,4 +1,4 @@
-package sec06.ch05;
+ package sec06.ch05;
 
 public class MethodMission8 {
 
