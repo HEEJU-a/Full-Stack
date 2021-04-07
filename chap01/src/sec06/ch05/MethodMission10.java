@@ -22,8 +22,9 @@ public class MethodMission10 {
 		int[] menuPriceArr = { 1000, 1200, 1300, 1500, 2000, 3000};
 		
 		
-		Drink[] drinkArr = new Drink[6];
+		Drink[] drinkArr = new Drink[menuNmArr.length];
 		
+		//Drink drink = new Drink();
 		for(int i = 0; i<drinkArr.length; i++) {
 			Drink drink = new Drink();
 			drink.nm = menuNmArr[i];
