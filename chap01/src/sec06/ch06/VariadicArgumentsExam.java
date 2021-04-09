@@ -28,3 +28,5 @@ class Calc2{
 		return sum;
 	}
 }
+
+

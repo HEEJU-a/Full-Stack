@@ -36,7 +36,7 @@ public class VendingMachineMission {
 			if (choice == 0) {
 				break;
 			} else if (choice >= 1 && choice <= menuNmArr.length) {
-				System.out.printf("%s를 선택하셨습니다.\n", menuNmArr[choice - 1]);
+				System.out.printf("%s를 선택하셨습니다.\n", menuNmArr[choice - 1 ]);
 			} else {
 				System.out.println("잘 못 선택하셨습니다.");
 			}

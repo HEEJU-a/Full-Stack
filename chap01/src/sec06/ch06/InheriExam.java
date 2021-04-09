@@ -1,6 +1,6 @@
 package sec06.ch06;
 
-public class InheriExam {
+public class InheriExam extends Object{
 
 	public static void main(String[] args) {
 		Cat cat = new Cat();
@@ -26,11 +26,11 @@ class Animal extends Object{
 //	
 	
 	
-	public Animal(String name, int age) {
-		super();
-		this.name = name;
-		this.age = age;
-	}
+//	public Animal(String name, int age) {
+//		super();
+//		this.name = name;
+//		this.age = age;
+//	}
 	
 	void howling() {
 		System.out.println("운다");
@@ -42,10 +42,10 @@ class Animal extends Object{
 
 class Cat extends Animal{
 
-	Cat(){
-		super("gg", 7);
-		
-	}
+//	Cat(){
+//		super("gg", 7);
+//		
+//	}
 //	Cat(){
 //		super();
 //		System.out.println("Cat 생성자");

@@ -27,7 +27,7 @@ class NumBox{
 	public boolean equals(Object obj) {
 		NumBox temp = (NumBox)obj;
 		
-		return this.num == temp.num;
+		return this.getNum() == temp.getNum();
 	}
 	
 }

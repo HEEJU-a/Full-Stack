@@ -15,6 +15,7 @@ public class CapsuleExam {
 		h1.whoAmI(); // 내 이름은 홍길동 나이는 12살입니다.
 		h2.whoAmI(); // 내 이름은 신사임당 나이는 20살입니다.
 		
+		
 
 	}
 }

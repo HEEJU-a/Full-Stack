@@ -12,11 +12,11 @@ public class StaticExam {
 		t2.name = "롯데";
 		System.out.println("t2.name : " + t2.name);
 		System.out.println("t1.name : " + t1.name);
-		System.out.println("Toy.name : " + Toy.name);
+		System.out.println("Toy.name : " + Toy.name); //-> 주로 이렇게쓴다!!!
 	}
 
 }
 
 class Toy{
-	static String name;
+	static String name; 
 }

@@ -19,8 +19,8 @@ public class IfExam4 {
 	}
 	*/
 	
-	public static int abs(int val) {
-		return val < 0 ? -val : val;
-	}
-	
+
+ 	public static int abs(int a) {
+ 		return a < 0 ? -a : a;
+ 	}
 }

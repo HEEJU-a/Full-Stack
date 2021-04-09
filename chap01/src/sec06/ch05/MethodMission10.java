@@ -33,6 +33,9 @@ public class MethodMission10 {
 			drinkArr[i] = drink;
 		}
 		
+	
+		
+		
 		printMenu3(drinkArr);
 		
 		/*
@@ -59,14 +62,13 @@ public class MethodMission10 {
 	
 	}
 	
+	
 	public static void printMenu3(Drink[] a) {
 		System.out.println("<메뉴>");
-		
+		// Drink drink = a[i]; -> 이렇게 쓰면 안됨
 		for(int i = 0; i < a.length; i++) {
 			Drink drink = a[i];
 			System.out.printf("%d. %s(%,d원)\n", i+1, drink.nm, drink.price);
-			
-			
 		}
 	}
 	

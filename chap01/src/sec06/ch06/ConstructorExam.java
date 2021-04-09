@@ -21,12 +21,14 @@ public class ConstructorExam {
 	
 	public static void main(String[] args) {
 		Tv tv1 = new Tv();
+		
 		tv1.brand = "samsung";
 		tv1.inch = 100;
 		tv1.maxChannel = 100;
 		tv1.maxVolume = 100;
 		tv1.displayState();
 		//Samsung 100inch 100channel 100volume
+		
 		
 		Tv tv2 = new Tv("Lg", 200, 150, 200);
 		tv2.displayState();
