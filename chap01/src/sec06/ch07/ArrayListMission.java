@@ -8,9 +8,13 @@ public class ArrayListMission {
 		
 		list.add(10);
 		list.add(20);
-		list.add(30);
 		list.add(40);
 		list.add(50);
+		
+	
+		list.add(2, 30);
+		int delVal = list.remove(1);
+		System.out.println("delVal : " + delVal); //20
 		
 		for(int i = 0; i < list.size(); i++) {
 			System.out.printf("%d : %d\n", i, list.get(i));
